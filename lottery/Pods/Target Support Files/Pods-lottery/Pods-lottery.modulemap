@@ -1,0 +1,6 @@
+framework module Pods_lottery {
+  umbrella header "Pods-lottery-umbrella.h"
+
+  export *
+  module * { export * }
+}
