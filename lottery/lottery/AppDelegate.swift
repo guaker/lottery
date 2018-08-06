@@ -22,7 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         SqliteHelper.shared.careteTables()
         
         //设置根视图控制器
-        self.window!.rootViewController =  UINavigationController(rootViewController: IndexViewController())
+        self.window!.rootViewController = BaseNavigationController(rootViewController: IndexViewController())
         self.window!.backgroundColor = .white
         self.window!.makeKeyAndVisible()
         

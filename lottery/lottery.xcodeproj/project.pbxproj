@@ -12,13 +12,17 @@
 		8211048920C5260700458DFC /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8211048820C5260700458DFC /* BaseTableViewController.swift */; };
 		8211049120C5266E00458DFC /* IndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8211048F20C5266E00458DFC /* IndexViewController.swift */; };
 		8211049720C526AB00458DFC /* MembersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8211049520C526AB00458DFC /* MembersViewController.swift */; };
+		821839D721100C0A00DD9C3F /* String+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821839D621100C0900DD9C3F /* String+Category.swift */; };
 		8233390C20E9CFF000E484A5 /* UtilsConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8233390B20E9CFF000E484A5 /* UtilsConstant.swift */; };
 		8233391520EA0EAA00E484A5 /* Date+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8233391420EA0EAA00E484A5 /* Date+Category.swift */; };
 		8233391920EA1BB700E484A5 /* IndexWinnerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8233391820EA1BB700E484A5 /* IndexWinnerCell.swift */; };
+		82551BD12111BBBB00C815B2 /* IndexMemberCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82551BD02111BBBB00C815B2 /* IndexMemberCell.swift */; };
+		82551BD32111BC0C00C815B2 /* IndexMemberLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82551BD22111BC0C00C815B2 /* IndexMemberLayout.swift */; };
 		82906AD920EF71CB00B2BD5D /* SqliteHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82906AD820EF71CB00B2BD5D /* SqliteHelper.swift */; };
 		8293708E20C63247004F805D /* MembersCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8293708D20C63247004F805D /* MembersCell.swift */; };
 		8293709220C63F45004F805D /* FontConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8293709020C63F45004F805D /* FontConstant.swift */; };
 		8293709320C63F45004F805D /* ColorConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8293709120C63F45004F805D /* ColorConstant.swift */; };
+		82CA2F302109C7460026B006 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CA2F2F2109C7460026B006 /* BaseNavigationController.swift */; };
 		82E70E1F20D0CD1E00D610EC /* MemberModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E70E1E20D0CD1E00D610EC /* MemberModel.swift */; };
 		82F24D4A20B7FE3D00464D72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F24D4920B7FE3D00464D72 /* AppDelegate.swift */; };
 		82F24D5120B7FE3E00464D72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82F24D5020B7FE3E00464D72 /* Assets.xcassets */; };
@@ -35,13 +39,17 @@
 		8211048820C5260700458DFC /* BaseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
 		8211048F20C5266E00458DFC /* IndexViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexViewController.swift; sourceTree = "<group>"; };
 		8211049520C526AB00458DFC /* MembersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MembersViewController.swift; sourceTree = "<group>"; };
+		821839D621100C0900DD9C3F /* String+Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Category.swift"; sourceTree = "<group>"; };
 		8233390B20E9CFF000E484A5 /* UtilsConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilsConstant.swift; sourceTree = "<group>"; };
 		8233391420EA0EAA00E484A5 /* Date+Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Category.swift"; sourceTree = "<group>"; };
 		8233391820EA1BB700E484A5 /* IndexWinnerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexWinnerCell.swift; sourceTree = "<group>"; };
+		82551BD02111BBBB00C815B2 /* IndexMemberCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexMemberCell.swift; sourceTree = "<group>"; };
+		82551BD22111BC0C00C815B2 /* IndexMemberLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexMemberLayout.swift; sourceTree = "<group>"; };
 		82906AD820EF71CB00B2BD5D /* SqliteHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SqliteHelper.swift; sourceTree = "<group>"; };
 		8293708D20C63247004F805D /* MembersCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MembersCell.swift; sourceTree = "<group>"; };
 		8293709020C63F45004F805D /* FontConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontConstant.swift; sourceTree = "<group>"; };
 		8293709120C63F45004F805D /* ColorConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorConstant.swift; sourceTree = "<group>"; };
+		82CA2F2F2109C7460026B006 /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
 		82E70E1E20D0CD1E00D610EC /* MemberModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberModel.swift; sourceTree = "<group>"; };
 		82F24D4620B7FE3D00464D72 /* lottery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lottery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82F24D4920B7FE3D00464D72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				8211048320C51C8F00458DFC /* BaseViewController.swift */,
+				82CA2F2F2109C7460026B006 /* BaseNavigationController.swift */,
 				8211048820C5260700458DFC /* BaseTableViewController.swift */,
 			);
 			path = Base;
@@ -83,6 +92,7 @@
 		8211048E20C5266E00458DFC /* Index */ = {
 			isa = PBXGroup;
 			children = (
+				82551BCF2111B69500C815B2 /* Member */,
 				820ACA7020FDCA12009236DF /* WinnerModel.swift */,
 				8233391820EA1BB700E484A5 /* IndexWinnerCell.swift */,
 				8211048F20C5266E00458DFC /* IndexViewController.swift */,
@@ -104,8 +114,18 @@
 			isa = PBXGroup;
 			children = (
 				8233391420EA0EAA00E484A5 /* Date+Category.swift */,
+				821839D621100C0900DD9C3F /* String+Category.swift */,
 			);
 			path = Categories;
+			sourceTree = "<group>";
+		};
+		82551BCF2111B69500C815B2 /* Member */ = {
+			isa = PBXGroup;
+			children = (
+				82551BD22111BC0C00C815B2 /* IndexMemberLayout.swift */,
+				82551BD02111BBBB00C815B2 /* IndexMemberCell.swift */,
+			);
+			path = Member;
 			sourceTree = "<group>";
 		};
 		82906AD720EF71AB00B2BD5D /* Helpers */ = {
@@ -290,15 +310,19 @@
 			files = (
 				8233391520EA0EAA00E484A5 /* Date+Category.swift in Sources */,
 				82F24D4A20B7FE3D00464D72 /* AppDelegate.swift in Sources */,
+				821839D721100C0A00DD9C3F /* String+Category.swift in Sources */,
 				8293708E20C63247004F805D /* MembersCell.swift in Sources */,
 				8211048620C51C8F00458DFC /* BaseViewController.swift in Sources */,
 				8293709220C63F45004F805D /* FontConstant.swift in Sources */,
 				8233391920EA1BB700E484A5 /* IndexWinnerCell.swift in Sources */,
 				82E70E1F20D0CD1E00D610EC /* MemberModel.swift in Sources */,
 				82906AD920EF71CB00B2BD5D /* SqliteHelper.swift in Sources */,
+				82CA2F302109C7460026B006 /* BaseNavigationController.swift in Sources */,
 				820ACA7120FDCA12009236DF /* WinnerModel.swift in Sources */,
 				8211049720C526AB00458DFC /* MembersViewController.swift in Sources */,
 				8211048920C5260700458DFC /* BaseTableViewController.swift in Sources */,
+				82551BD12111BBBB00C815B2 /* IndexMemberCell.swift in Sources */,
+				82551BD32111BC0C00C815B2 /* IndexMemberLayout.swift in Sources */,
 				8211049120C5266E00458DFC /* IndexViewController.swift in Sources */,
 				8293709320C63F45004F805D /* ColorConstant.swift in Sources */,
 				8233390C20E9CFF000E484A5 /* UtilsConstant.swift in Sources */,

@@ -19,3 +19,6 @@ let colorBackground   = UIColor(red: 239/255.0, green: 239/255.0, blue: 244/255.
 
 //cell选择背景色
 let colorCellSelected = UIColor(red: 247/255.0, green: 247/255.0, blue: 247/255.0, alpha: 1.0)
+
+//分割线颜色
+let colorLine         = UIColor(red: 220/255.0, green: 226/255.0, blue: 232/255.0, alpha: 1.0)

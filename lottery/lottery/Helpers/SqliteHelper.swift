@@ -124,7 +124,7 @@ class SqliteHelper {
         
         var winners = [WinnerModel]()
         
-        for object in try! self.db.prepare(_winners) {
+        for object in try! self.db.prepare(_winners).reversed() {
             let winner = WinnerModel()
             winner.id = object[_id]
             winner.memberId = object[_memberId]
