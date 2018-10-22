@@ -13,9 +13,14 @@
 		8211049120C5266E00458DFC /* IndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8211048F20C5266E00458DFC /* IndexViewController.swift */; };
 		8211049720C526AB00458DFC /* MembersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8211049520C526AB00458DFC /* MembersViewController.swift */; };
 		821839D721100C0A00DD9C3F /* String+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821839D621100C0900DD9C3F /* String+Category.swift */; };
+		82203F6021390C870085B5D4 /* PrizeNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82203F5F21390C870085B5D4 /* PrizeNameViewController.swift */; };
+		82203F6221390DD50085B5D4 /* PrizeNumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82203F6121390DD50085B5D4 /* PrizeNumViewController.swift */; };
 		8233390C20E9CFF000E484A5 /* UtilsConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8233390B20E9CFF000E484A5 /* UtilsConstant.swift */; };
 		8233391520EA0EAA00E484A5 /* Date+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8233391420EA0EAA00E484A5 /* Date+Category.swift */; };
 		8233391920EA1BB700E484A5 /* IndexWinnerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8233391820EA1BB700E484A5 /* IndexWinnerCell.swift */; };
+		82483A142119799B0067900B /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82483A132119799B0067900B /* SettingViewController.swift */; };
+		82483A16211979C30067900B /* SettingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82483A15211979C30067900B /* SettingCell.swift */; };
+		82483A1A21197A710067900B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82483A1921197A710067900B /* Main.storyboard */; };
 		82551BD12111BBBB00C815B2 /* IndexMemberCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82551BD02111BBBB00C815B2 /* IndexMemberCell.swift */; };
 		82551BD32111BC0C00C815B2 /* IndexMemberLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82551BD22111BC0C00C815B2 /* IndexMemberLayout.swift */; };
 		82906AD920EF71CB00B2BD5D /* SqliteHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82906AD820EF71CB00B2BD5D /* SqliteHelper.swift */; };
@@ -40,9 +45,14 @@
 		8211048F20C5266E00458DFC /* IndexViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexViewController.swift; sourceTree = "<group>"; };
 		8211049520C526AB00458DFC /* MembersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MembersViewController.swift; sourceTree = "<group>"; };
 		821839D621100C0900DD9C3F /* String+Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Category.swift"; sourceTree = "<group>"; };
+		82203F5F21390C870085B5D4 /* PrizeNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrizeNameViewController.swift; sourceTree = "<group>"; };
+		82203F6121390DD50085B5D4 /* PrizeNumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrizeNumViewController.swift; sourceTree = "<group>"; };
 		8233390B20E9CFF000E484A5 /* UtilsConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilsConstant.swift; sourceTree = "<group>"; };
 		8233391420EA0EAA00E484A5 /* Date+Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Category.swift"; sourceTree = "<group>"; };
 		8233391820EA1BB700E484A5 /* IndexWinnerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexWinnerCell.swift; sourceTree = "<group>"; };
+		82483A132119799B0067900B /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		82483A15211979C30067900B /* SettingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingCell.swift; sourceTree = "<group>"; };
+		82483A1921197A710067900B /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		82551BD02111BBBB00C815B2 /* IndexMemberCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexMemberCell.swift; sourceTree = "<group>"; };
 		82551BD22111BC0C00C815B2 /* IndexMemberLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexMemberLayout.swift; sourceTree = "<group>"; };
 		82906AD820EF71CB00B2BD5D /* SqliteHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SqliteHelper.swift; sourceTree = "<group>"; };
@@ -83,7 +93,9 @@
 		8211048420C51C8F00458DFC /* Business */ = {
 			isa = PBXGroup;
 			children = (
+				82483A1921197A710067900B /* Main.storyboard */,
 				8211048E20C5266E00458DFC /* Index */,
+				82483A122119799B0067900B /* Setting */,
 				8211049420C526AB00458DFC /* Members */,
 			);
 			path = Business;
@@ -117,6 +129,17 @@
 				821839D621100C0900DD9C3F /* String+Category.swift */,
 			);
 			path = Categories;
+			sourceTree = "<group>";
+		};
+		82483A122119799B0067900B /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				82483A15211979C30067900B /* SettingCell.swift */,
+				82483A132119799B0067900B /* SettingViewController.swift */,
+				82203F5F21390C870085B5D4 /* PrizeNameViewController.swift */,
+				82203F6121390DD50085B5D4 /* PrizeNumViewController.swift */,
+			);
+			path = Setting;
 			sourceTree = "<group>";
 		};
 		82551BCF2111B69500C815B2 /* Member */ = {
@@ -257,6 +280,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82483A1A21197A710067900B /* Main.storyboard in Resources */,
 				82F24D5420B7FE3E00464D72 /* LaunchScreen.storyboard in Resources */,
 				82F24D5120B7FE3E00464D72 /* Assets.xcassets in Resources */,
 			);
@@ -315,6 +339,7 @@
 				8211048620C51C8F00458DFC /* BaseViewController.swift in Sources */,
 				8293709220C63F45004F805D /* FontConstant.swift in Sources */,
 				8233391920EA1BB700E484A5 /* IndexWinnerCell.swift in Sources */,
+				82203F6021390C870085B5D4 /* PrizeNameViewController.swift in Sources */,
 				82E70E1F20D0CD1E00D610EC /* MemberModel.swift in Sources */,
 				82906AD920EF71CB00B2BD5D /* SqliteHelper.swift in Sources */,
 				82CA2F302109C7460026B006 /* BaseNavigationController.swift in Sources */,
@@ -323,8 +348,11 @@
 				8211048920C5260700458DFC /* BaseTableViewController.swift in Sources */,
 				82551BD12111BBBB00C815B2 /* IndexMemberCell.swift in Sources */,
 				82551BD32111BC0C00C815B2 /* IndexMemberLayout.swift in Sources */,
+				82203F6221390DD50085B5D4 /* PrizeNumViewController.swift in Sources */,
 				8211049120C5266E00458DFC /* IndexViewController.swift in Sources */,
+				82483A142119799B0067900B /* SettingViewController.swift in Sources */,
 				8293709320C63F45004F805D /* ColorConstant.swift in Sources */,
+				82483A16211979C30067900B /* SettingCell.swift in Sources */,
 				8233390C20E9CFF000E484A5 /* UtilsConstant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -466,7 +494,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FA6D4J3SX4;
 				INFOPLIST_FILE = lottery/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -488,7 +516,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FA6D4J3SX4;
 				INFOPLIST_FILE = lottery/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

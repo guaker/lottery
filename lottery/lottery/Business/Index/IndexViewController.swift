@@ -24,8 +24,9 @@ class IndexViewController: BaseViewController, UICollectionViewDelegate, UIColle
     private var needUpdate: Bool? //需要刷新
     
     //颜色
-    private var colorArray = [UIColor(red: 243/255.0, green: 139/255.0, blue: 115/255.0, alpha: 1.0),
-                              UIColor(red: 38/255.0,  green: 227/255.0, blue: 149/255.0, alpha: 1.0),
+    private var colorArray = [UIColor(red: 255/255.0, green: 192/255.0, blue: 203/255.0, alpha: 1.0),
+                              UIColor(red: 0/255.0,  green: 191/255.0, blue: 255/255.0, alpha: 1.0),
+                              UIColor(red: 128/255.0,  green: 0/255.0, blue: 128/255.0, alpha: 1.0),
                               UIColor(red: 243/255.0, green: 178/255.0, blue: 115/255.0, alpha: 1.0)]
     
     override func viewDidLoad() {
@@ -290,6 +291,7 @@ class IndexViewController: BaseViewController, UICollectionViewDelegate, UIColle
         }
         self.navigationController?.pushViewController(membersVC, animated: true)
     }
+    
         override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
